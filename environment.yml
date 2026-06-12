@@ -1,0 +1,60 @@
+name: taxoviz
+channels:
+  - rapidsai          # cuML / cuDF (GPU)
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # ── Python ────────────────────────────────────────────────────────────────
+  - python=3.10
+
+  # ── Core scientific stack ─────────────────────────────────────────────────
+  - numpy>=1.24
+  - pandas>=2.0
+  - scipy>=1.11
+  - scikit-learn>=1.3
+  - joblib>=1.3
+  - krakenuniq
+  - centrifuger
+
+  # ── Bioinformatics ────────────────────────────────────────────────────────
+  - biopython>=1.81
+  - taxopy>=0.11          # NCBI taxonomy traversal
+
+  # ── Dimensionality reduction ──────────────────────────────────────────────
+  - opentsne>=1.0         # openTSNE (FFT-accelerated t-SNE)
+  - umap-learn>=0.5       # CPU UMAP
+
+  # ── GPU (RAPIDS) — comment out if no CUDA GPU available ──────────────────
+  # Requires CUDA 11.8 or 12.x; adjust cuda version tag as needed.
+  # See https://rapids.ai/start.html for the right channel/version combo.
+  # - cuml=24.04           # GPU UMAP (cuML)
+  # - cudatoolkit=11.8
+  - rapids
+
+  # ── JIT compilation ───────────────────────────────────────────────────────
+  - numba>=0.58           # optional but strongly recommended for k-mer speed
+
+  # ── HDF5 (streaming feature matrix) ──────────────────────────────────────
+  - h5py>=3.9
+
+  # ── Visualisation ─────────────────────────────────────────────────────────
+  - matplotlib>=3.7
+  - plotly>=5.17          # interactive HTML (WebGL)
+
+  # ── Progress bars ─────────────────────────────────────────────────────────
+  - tqdm>=4.66
+
+  # ── Notebook ──────────────────────────────────────────────────────────────
+  - jupyter
+  - ipykernel
+  - nbformat>=5.9
+
+  # ── Data serialisation ────────────────────────────────────────────────────
+  - pyarrow>=13           # parquet output (metadata DataFrame)
+
+  # ── pip-only packages ─────────────────────────────────────────────────────
+  - pip
+  - pip:
+    - taxopy              # fallback if conda version is outdated
