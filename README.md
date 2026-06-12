@@ -1,7 +1,10 @@
-# TaxoViz — Setup and Usage Guide
+# taxovizc — Setup and Usage Guide
 
-Read-level k-mer ordination coloured by classifier agreement across
-MetaPhlAn4, KrakenUniq, and Centrifuger.
+Read-level k-mer ordination coloured by classifier agreement across MetaPhlAn4, KrakenUniq, and Centrifuger, using CHOCOPhlAn vJan25, RefSeq bacteria/archaea/viral (accessed at 05.2026) and core_nt (accessed at 06.2025) databases, respectively.
+
+The instrument uses per read k-mer composition and GC-content as features to perform reads spatial arrangement and retrieve large similarity clusters. 
+The process includes initial dimensionality reduction to 75 most variable dimensions by PCA, followed by non-linear Manhattan distance-based ordination analysis by t-SNE/UMAP. 
+
 
 ---
 
