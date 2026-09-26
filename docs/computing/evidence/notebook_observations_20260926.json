@@ -1,0 +1,25 @@
+{
+  "baseline_commit": "9528b62e5da4624384c9977561a6e8caa484702a",
+  "evidence_type": "stored notebook output, not re-executed",
+  "cell_count": 17,
+  "outputs": {
+    "3": [
+      "Loaded 9,993 reads\n  Length  min=1,000  median=6,457  max=97,691\n  GC mean = 0.466\n"
+    ],
+    "4": [
+      "Loaded 5,730,402 reads\n  Length  min=1,000  median=6,425  max=99,958\n  GC mean = 0.467\n"
+    ],
+    "6": [
+      "MetaPhlAn4  classified: 3,213 / 9,993 (32.2%)\nKrakenUniq  classified: 9,256 / 9,993 (92.6%)\nCentrifuger classified: 9,871 / 9,993 (98.8%)\n"
+    ],
+    "7": [
+      "Metadata shape: (9993, 19)\n\nAgreement at GENUS level:\nagreement_genus\nKC        5394\nK_only    1850\nMKC       1500\nnone       588\nC_only     422\nM_only     152\nMK          70\nMC          17\n\nAgreement at SPECIES level:\nagreement_species\nKC        5574\nK_only    1998\nMKC        884\nC_only     780\nnone       432\nM_only     248\nMK          54\nMC          23\n"
+    ],
+    "8": [
+      "Feature matrix shape : (9993, 2217)\n  Expected           : (9993, 2217)  [136 + 2080 CLR + 1 GC]\n  dtype              : float32\n  RAM                : 88.6 MB\n  Any NaN/Inf        : False\n"
+    ],
+    "9": [
+      "PCA: 75 components explain 54.5% variance  (threshold 75%)\n"
+    ]
+  }
+}

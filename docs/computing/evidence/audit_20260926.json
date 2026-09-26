@@ -1,0 +1,81 @@
+{
+  "scope": "Synthetic audit probes; no real FASTQ/database or full pipeline run",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "biopython": "1.88",
+    "h5py": "3.16.0",
+    "numba": "0.67.0",
+    "taxopy": "0.14.0"
+  },
+  "sha256": {
+    "taxoviz_core.py": "5a47dc8d7cd54583c128e1a564b773e5cb680778b0a05d053a53a7f7485d2efa",
+    "taxoviz_full.py": "0ef275f506278e4be41deb77c7cd98ff053619878898d8d3dac1b221182874c5"
+  },
+  "read_count": {
+    "parsed": 4,
+    "count_reads": 5
+  },
+  "streaming": {
+    "hdf5_rows": 5,
+    "real_ids": 4,
+    "phantom_rows_all_zero": true,
+    "full_gc_column": [
+      -1.0,
+      -1.0,
+      1.0,
+      1.0
+    ],
+    "stream_gc_column": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "kmer_blocks_equal": true
+  },
+  "marker_formats": {
+    "r2": 0,
+    "r1": 562
+  },
+  "secondary_overwrite": {
+    "r1": 0
+  },
+  "headerless_centrifuger": {
+    "r1": null
+  },
+  "centrifuger_last_record": {
+    "r1": 1280
+  },
+  "taxonomy": {
+    "562_genus": 561,
+    "562_species": 562
+  },
+  "agreement": {
+    "one_only": "M_only",
+    "three_conflict": "M_only",
+    "two_conflict": "K_only"
+  },
+  "clr_length_effect": [
+    [
+      0.0,
+      -0.6931471824645996,
+      0.6931471824645996
+    ],
+    [
+      0.4539344608783722,
+      -1.9439607858657837,
+      1.4900263547897339
+    ]
+  ],
+  "numba_python_and_strand_agree": {
+    "4": true,
+    "6": true
+  },
+  "canonical_vocab_k3": 32,
+  "canonical_vocab_k5": 512,
+  "nondefault_k": "KeyError: 3",
+  "ipca_small_final_batch": "accepted in this installed version"
+}

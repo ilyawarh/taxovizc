@@ -1,5 +1,7 @@
 # taxovizc — Setup and Usage Guide
 
+> **Project workspace (2026-09-26):** start with [START_HERE.md](START_HERE.md). Research Lab, Computing Lab and Workflow Hub are linked there. The existing implementation is an exploratory visualizer, not a validated taxonomic correction tool. See the [audit](docs/computing/AUDIT_20260926.md) before using the historical production instructions below.
+
 Read-level k-mer ordination coloured by classifier agreement across MetaPhlAn4, KrakenUniq, and Centrifuger, using CHOCOPhlAn vJan25, RefSeq bacteria/archaea/viral (accessed at 05.2026) and core_nt (accessed at 06.2025) databases, respectively.
 
 The instrument uses per read k-mer composition and GC-content as features to perform reads spatial arrangement and retrieve large similarity clusters. 
