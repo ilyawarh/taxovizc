@@ -1,0 +1,29 @@
+# Local data and generated computation artifacts
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.ipynb_checkpoints/
+.venv/
+.env
+.env.*
+!.env.example
+/data/
+/reads/
+/classifications/
+/results/
+/runs/
+/cache/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pkl
+*.pkl.bz2
+# Public test fixtures can be explicitly admitted under tests/fixtures later.
