@@ -73,3 +73,18 @@ Definition of done P0: synthetic regression tests, один согласован
 Проверить Kraken family, Centrifuge/Centrifuger, Kaiju и MetaPhlAn по отдельным адаптерам. Для Sourmash явно ограничить поддержку доступным типом output. Затем Illumina paired-end, HiFi, несколько samples и внешние embeddings. Cross-sample coverage для сырых ридов требует собственного способа установления соответствий; нельзя копировать contig abundance matrix без её построения.
 
 Дальнейший standalone classifier требует reference/label training и отдельного benchmark held-out species/genus. Чистый unsupervised binning может оставаться полезным режимом, но не называть его полностью таксономическим классификатором.
+
+
+## 2026-10-05 - completed exploratory Zymo review (TV-R001)
+
+Status: DONE for artifact retrieval, saved-output interpretation and exact-ID comparison; does not complete P0/P1 or validate correction.
+Evidence: [research report](../research/ZYMO_FECAL_REVIEW_20261005.md), [experiment](../computing/experiments/EXP-20261005-ZYMO.md).
+
+- Intentional earliest-time 3% subset: 290,227 reads, matched to all 23 full-run bins.
+- Real-run evidence reinforces TV-004 (hidden conflicts in -only- colors) and TV-007 (stale notebook outputs, missing independent v1 fitted state). TV-001/002/003/004/007 remain open; this review changed no production behavior.
+- P1 preparation advanced: public Zymo DNA/16S references located and qPCR limitations audited. No independent read-level truth or frozen evaluation split yet.
+- Proposed research follow-up: verify bin 0 and mobile/control candidates in bins 7/11/13 by independent alignment; assess length/GC effects on a fixed read set after P0. Maintain early-time sampling as a user-selected design.
+
+## Zymo delivery - 2026-10-06
+
+TV-R001 publication: DONE. [PDF](../research/reports/Zymo_Experiment_20261006.pdf) and [standalone agent context](../research/ZYMO_AGENT_CONTEXT_20261006.json) complete the exploratory review. No change to P0 acceptance: parser/agreement fixes and independent validation are still required. Follow-ups: bin 0 references, bins 7/11/13 mobile/control candidates, frozen transforms and length/GC-controlled analysis.

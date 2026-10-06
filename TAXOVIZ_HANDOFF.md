@@ -1,6 +1,22 @@
 # TAXOVIZ_HANDOFF — current agent entry point
 
-Updated: 2026-09-26. Document version: 1.0. Baseline implementation SHA: 9528b62e5da4624384c9977561a6e8caa484702a. Workspace branch: docs/research-workspace-2026-09-26. This document does not imply that the branch has been merged.
+## Latest delivery - 2026-10-06
+
+Zymo review is complete: [14-page PDF](docs/research/reports/Zymo_Experiment_20261006.pdf), [standalone JSON context](docs/research/ZYMO_AGENT_CONTEXT_20261006.json), and [publication manifest](docs/computing/evidence/zymo_20261005/publication_manifest.json). The JSON includes all aggregate taxonomic profiles, 23 bins, 39 qPCR targets, methods, uncertainties and owner clarifications. Four publication figures preserve original HTML coordinates. No inference or taxonomy correction was performed. User authorized Git synchronization on `research/zymo-fecal-review-2026-10-05`; main is not merged.
+
+Next scientific work remains independent validation of bin 0 and bins 7/11/13, plus P0 agreement/parser correctness. Earliest-sequence sampling is intentional. Preparation details unavailable beyond workbook must not be requested again. Historical sections below describe earlier states.
+
+Updated: 2026-10-05. Document version: 1.1. Baseline implementation SHA: 9528b62e5da4624384c9977561a6e8caa484702a. Current branch: research/zymo-fecal-review-2026-10-05; inherited workspace: docs/research-workspace-2026-09-26. This document does not imply that the branch has been merged.
+
+## Latest completed task — 2026-10-05
+
+Saved-run Zymo review completed on `research/zymo-fecal-review-2026-10-05`, workspace HEAD `2e29b4b9f6b15631d2c588fbff708148efc1de6f`. [Report](docs/research/ZYMO_FECAL_REVIEW_20261005.md); [experiment/provenance](docs/computing/experiments/EXP-20261005-ZYMO.md); [local artifact index](runs/zymo_fecal_20261005/README.md). No commit/merge/push or production implementation change.
+
+Both maps contain the same 290,227 reads. All match full-run LRBinner (9,674,223 reads, 23 bins); pickle and bins.txt agree exactly. Owner explicitly confirms custom ontime-based earliest-sequence 3% selection: intentional temporal sampling, not an error. Physical sample product/lot/additions cannot be clarified beyond the supplied workbook; owner did not make it. Its reference profile matches public Zymo 16S characterization, but qPCR formulas/labels cannot define quantitative ground truth.
+
+Updated server notebook was saved by owner during this task; stale first snapshot is archived. Current v2 settings are perplexity 100, UMAP 50/0.15, 43 PCs/55%; v1 SVG settings 250, 100/0.3. Old unrelated output cells persist. Large originals, source snapshots, per-read joins, public reference downloads and diagnostic figures are in ignored runs. Compact evidence is in docs/computing/evidence/zymo_20261005; reproducible scripts in scripts/research.
+
+Strong candidate taxon groups coexist with mixed bins, hidden classifier conflicts, length/GC gradients and ambiguous E. coli/lambda sequence. No v2 accuracy gain or correction was demonstrated. Immediate coding priorities remain TV-001/002, then TV-003/004/007; proposed biological checks focus on bin 0 and bins 7/11/13. Detailed 2026-09-26 baseline assessment below remains historical context, not the latest run statistics.
 
 ## Read first
 

@@ -1,0 +1,228 @@
+{
+  "length_strata": [
+    {
+      "lower_exclusive_bp": 0,
+      "upper_inclusive_bp": 2000,
+      "reads": 53674,
+      "KC_species_resolved_fraction": 0.5259343443753027
+    },
+    {
+      "lower_exclusive_bp": 2000,
+      "upper_inclusive_bp": 5000,
+      "reads": 88754,
+      "KC_species_resolved_fraction": 0.552842688780224
+    },
+    {
+      "lower_exclusive_bp": 5000,
+      "upper_inclusive_bp": 10000,
+      "reads": 54747,
+      "KC_species_resolved_fraction": 0.703928982409995
+    },
+    {
+      "lower_exclusive_bp": 10000,
+      "upper_inclusive_bp": 30000,
+      "reads": 70061,
+      "KC_species_resolved_fraction": 0.869056964645095
+    },
+    {
+      "lower_exclusive_bp": 30000,
+      "upper_inclusive_bp": 100000,
+      "reads": 22991,
+      "KC_species_resolved_fraction": 0.9705536949241007
+    }
+  ],
+  "rare_target_calls": {
+    "Porphyromonas gingivalis": {
+      "M": {
+        "total": 42,
+        "labels": {
+          "Porphyromonas gingivalis": 42
+        }
+      },
+      "K": {
+        "total": 407,
+        "labels": {
+          "Porphyromonas gingivalis": 407
+        }
+      },
+      "C": {
+        "total": 406,
+        "labels": {
+          "Porphyromonas gingivalis": 406
+        }
+      }
+    },
+    "Peptostreptococcus": {
+      "M": {
+        "total": 4641,
+        "labels": {
+          "Peptostreptococcus anaerobius": 3788,
+          "Peptostreptococcus equinus": 338,
+          "Peptostreptococcus russellii": 275,
+          "Peptostreptococcus canis": 128,
+          "Peptostreptococcus faecalis": 82,
+          "Peptostreptococcus stomatis": 24,
+          "Peptostreptococcus sp. MV1": 6
+        }
+      },
+      "K": {
+        "total": 15936,
+        "labels": {
+          "Peptostreptococcus anaerobius": 15910,
+          "Peptostreptococcus porci": 15,
+          "Peptostreptococcus equinus": 11
+        }
+      },
+      "C": {
+        "total": 3010,
+        "labels": {
+          "Peptostreptococcus equinus": 1315,
+          "Peptostreptococcus porci": 1009,
+          "Peptostreptococcus anaerobius": 678,
+          "uncultured Peptostreptococcus sp.": 8
+        }
+      }
+    },
+    "Gemella": {
+      "M": {
+        "total": 22,
+        "labels": {
+          "Gemella sp. GH3.1": 22
+        }
+      },
+      "K": {
+        "total": 2,
+        "labels": {
+          "Gemella sp. zg-570": 1,
+          "Gemella haemolysans": 1
+        }
+      },
+      "C": {
+        "total": 19,
+        "labels": {
+          "Gemella sp. oral taxon 928": 14,
+          "Gemella sp. zg-570": 2,
+          "Gemella morbillorum": 2,
+          "Gemella haemolysans": 1
+        }
+      }
+    }
+  },
+  "candidate_bin_labels": {
+    "0": {
+      "n": 13611,
+      "M": {
+        "unclassified": 8946,
+        "Peptostreptococcus anaerobius": 3757,
+        "Peptostreptococcus equinus": 334,
+        "Peptostreptococcus russellii": 275,
+        "Peptostreptococcus canis": 128,
+        "Peptostreptococcus faecalis": 80,
+        "Acetoanaerobium pronyense": 26,
+        "Peptostreptococcus stomatis": 24
+      },
+      "K": {
+        "Peptostreptococcus anaerobius": 13368,
+        "unclassified": 100,
+        "Fusobacterium nucleatum": 59,
+        "Bacteroides fragilis": 12,
+        "Peptostreptococcus equinus": 10,
+        "Phocaeicola dorei": 7,
+        "Intestinibacter bartlettii": 7,
+        "Terrisporobacter petrolearius": 4
+      },
+      "C": {
+        "unclassified": 3276,
+        "Peptostreptococcus equinus": 1262,
+        "Caudoviricetes sp.": 1078,
+        "Peptostreptococcus porci": 955,
+        "Streptococcus dysgalactiae": 347,
+        "Peptostreptococcus anaerobius": 338,
+        "Clostridioides difficile": 313,
+        "Finegoldia magna": 241
+      }
+    },
+    "7": {
+      "n": 16557,
+      "M": {
+        "unclassified": 16553,
+        "[Eubacterium] siraeum": 1,
+        "Anaerobutyricum soehngenii": 1,
+        "Klebsiella electrica": 1,
+        "Clostridium sp. AF36-4": 1
+      },
+      "K": {
+        "Escherichia coli": 8105,
+        "unclassified": 3872,
+        "Aliiphycobium algicola": 1733,
+        "Furfurilactobacillus milii": 765,
+        "Campylobacter jejuni": 638,
+        "Arcanobacterium hippocoleae": 270,
+        "Escherichia albertii": 248,
+        "Klebsiella quasipneumoniae": 243
+      },
+      "C": {
+        "Escherichia coli": 8674,
+        "Lambdavirus lambda": 4792,
+        "Synechocystis sp. B12": 1130,
+        "unclassified": 1031,
+        "Acinetobacter baumannii": 663,
+        "Bacillus subtilis": 148,
+        "Arcanobacterium hippocoleae": 56,
+        "Staphylococcus aureus": 29
+      }
+    },
+    "11": {
+      "n": 981,
+      "M": {
+        "unclassified": 981
+      },
+      "K": {
+        "Escherichia coli": 397,
+        "unclassified": 316,
+        "Aliiphycobium algicola": 103,
+        "Furfurilactobacillus milii": 52,
+        "Campylobacter jejuni": 41,
+        "Escherichia albertii": 18,
+        "Klebsiella quasipneumoniae": 14,
+        "Escherichia fergusonii": 10
+      },
+      "C": {
+        "Lambdavirus lambda": 557,
+        "Escherichia coli": 247,
+        "unclassified": 125,
+        "Acinetobacter baumannii": 33,
+        "Bacillus subtilis": 7,
+        "Arcanobacterium hippocoleae": 6,
+        "Staphylococcus aureus": 4,
+        "Enterobacteriaceae bacterium": 1
+      }
+    },
+    "13": {
+      "n": 1028,
+      "M": {
+        "unclassified": 1028
+      },
+      "K": {
+        "unclassified": 607,
+        "Escherichia coli": 349,
+        "Arcanobacterium hippocoleae": 31,
+        "Klebsiella pneumoniae": 22,
+        "Furfurilactobacillus milii": 8,
+        "Campylobacter jejuni": 4,
+        "Sulfitobacter faviae": 2,
+        "Caproicibacterium sp. NSD3": 1
+      },
+      "C": {
+        "Escherichia coli": 678,
+        "unclassified": 170,
+        "Synechocystis sp. B12": 142,
+        "Bacillus subtilis": 21,
+        "Acinetobacter baumannii": 13,
+        "Pediococcus parvulus": 1,
+        "Mesorhizobium sp. UC22_110": 1,
+        "Arcanobacterium hippocoleae": 1
+      }
+    }
+  }
+}

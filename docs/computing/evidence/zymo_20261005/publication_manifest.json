@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-06",
+  "pdf_pages": 14,
+  "qa": "Poppler rendering and visual review; corrected image scaling; no model rerun",
+  "counts": {
+    "bins": 23,
+    "qpcr_targets": 39
+  },
+  "files": [
+    {
+      "path": "docs/research/reports/Zymo_Experiment_20261006.pdf",
+      "bytes": 6958274,
+      "sha256": "ef32cf51c5b3cf99ef88fe13664f986d1faa50a30a1d736a44f357036f4e1c10"
+    },
+    {
+      "path": "docs/research/ZYMO_AGENT_CONTEXT_20261006.json",
+      "bytes": 3245080,
+      "sha256": "8ca3e6afc1b660364e6ac5f2dedc6cbad987e801a5bd04a160ec25fa8f620934"
+    },
+    {
+      "path": "docs/research/figures/zymo_20261005/bin_comparison.png",
+      "bytes": 1920686,
+      "sha256": "5adafe09012e7d3f3b55d3f67f3450010ebfe5699db25e402f9a4598b90b6608"
+    },
+    {
+      "path": "docs/research/figures/zymo_20261005/gc_comparison.png",
+      "bytes": 1353309,
+      "sha256": "42acb564dd3b92355dc99068711379250c174b229470be5d49375147b3f54704"
+    },
+    {
+      "path": "docs/research/figures/zymo_20261005/length_comparison.png",
+      "bytes": 1679431,
+      "sha256": "23f4970707eb54da5107fc098e4396f1111a4dd7f595bfa7b504cccd23eee83b"
+    },
+    {
+      "path": "docs/research/figures/zymo_20261005/taxa_comparison.png",
+      "bytes": 1391105,
+      "sha256": "e380b3b468a223031afa819aea6f9d799fd393e31aefcdd54de9c52281b05241"
+    }
+  ],
+  "requirements": {
+    "focused_branch": true,
+    "production_code_unchanged": true,
+    "large_originals_and_read_ids_ignored": true,
+    "log_roadmap_handoff_decisions_updated": true,
+    "unavailable_historical_provenance_explicit": true
+  }
+}

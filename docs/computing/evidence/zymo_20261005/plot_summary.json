@@ -1,0 +1,121 @@
+{
+  "n_reads": 290227,
+  "duplicate_plot_ids": 0,
+  "both_versions_identical_metadata": true,
+  "total_bases": 2957983218,
+  "read_length_quantiles": {
+    "0.0": 1000.0,
+    "0.1": 1460.0,
+    "0.25": 2543.0,
+    "0.5": 5159.0,
+    "0.75": 13498.0,
+    "0.9": 26957.0,
+    "0.99": 52081.0,
+    "1.0": 99796.0
+  },
+  "mean_gc_rounded": 0.42874605050529413,
+  "agreement": {
+    "genus": {
+      "KC": 165230,
+      "MKC": 60781,
+      "K_only": 36974,
+      "none": 11895,
+      "C_only": 9045,
+      "MK": 4201,
+      "M_only": 1950,
+      "MC": 151
+    },
+    "species": {
+      "KC": 166911,
+      "K_only": 43794,
+      "MKC": 32124,
+      "C_only": 25436,
+      "none": 7718,
+      "M_only": 6087,
+      "MK": 4157,
+      "MC": 4000
+    }
+  },
+  "actual_availability": {
+    "genus": {
+      "M": 77479,
+      "K": 268389,
+      "C": 259486
+    },
+    "species": {
+      "M": 75678,
+      "K": 250216,
+      "C": 274304
+    }
+  },
+  "hidden_conflicts": {
+    "genus": {
+      "M_only": {
+        "total": 1950,
+        "with_conflict": 1427
+      },
+      "K_only": {
+        "total": 36974,
+        "with_conflict": 20896
+      },
+      "C_only": {
+        "total": 9045,
+        "with_conflict": 0
+      },
+      "KC": {
+        "total": 165230,
+        "with_conflict": 10396
+      },
+      "MK": {
+        "total": 4201,
+        "with_conflict": 2707
+      },
+      "MC": {
+        "total": 151,
+        "with_conflict": 94
+      },
+      "MKC": {
+        "total": 60781,
+        "with_conflict": 0
+      },
+      "none": {
+        "total": 11895,
+        "with_conflict": 0
+      }
+    },
+    "species": {
+      "M_only": {
+        "total": 6087,
+        "with_conflict": 5617
+      },
+      "K_only": {
+        "total": 43794,
+        "with_conflict": 37289
+      },
+      "C_only": {
+        "total": 25436,
+        "with_conflict": 0
+      },
+      "KC": {
+        "total": 166911,
+        "with_conflict": 29310
+      },
+      "MK": {
+        "total": 4157,
+        "with_conflict": 3192
+      },
+      "MC": {
+        "total": 4000,
+        "with_conflict": 655
+      },
+      "MKC": {
+        "total": 32124,
+        "with_conflict": 0
+      },
+      "none": {
+        "total": 7718,
+        "with_conflict": 0
+      }
+    }
+  }
+}

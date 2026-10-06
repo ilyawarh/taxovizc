@@ -1,0 +1,140 @@
+{
+  "full_reads": 9674223,
+  "full_bases": 90826618124,
+  "plot_read_fraction": 0.03000003204391712,
+  "plot_base_fraction": 0.03256736052818401,
+  "pickle_bins_match_bins_txt": true,
+  "duplicate_bin_memberships": 0,
+  "unbinned": 0,
+  "first_plotted_full_index": 48856,
+  "last_plotted_full_index": 1040930,
+  "source_read_fraction_before_last_selected": 0.1075984086784024,
+  "sampling_by_decile": [
+    {
+      "decile": 1,
+      "full_start_zero_based": 0,
+      "full_end_exclusive": 967422,
+      "full_reads": 967422,
+      "selected_reads": 242665,
+      "selection_pct": 25.083675996617814,
+      "full_median_len": 5285.0
+    },
+    {
+      "decile": 2,
+      "full_start_zero_based": 967422,
+      "full_end_exclusive": 1934844,
+      "full_reads": 967422,
+      "selected_reads": 47562,
+      "selection_pct": 4.9163653503848375,
+      "full_median_len": 4745.0
+    },
+    {
+      "decile": 3,
+      "full_start_zero_based": 1934844,
+      "full_end_exclusive": 2902266,
+      "full_reads": 967422,
+      "selected_reads": 0,
+      "selection_pct": 0.0,
+      "full_median_len": 4993.0
+    },
+    {
+      "decile": 4,
+      "full_start_zero_based": 2902266,
+      "full_end_exclusive": 3869689,
+      "full_reads": 967423,
+      "selected_reads": 0,
+      "selection_pct": 0.0,
+      "full_median_len": 4944.0
+    },
+    {
+      "decile": 5,
+      "full_start_zero_based": 3869689,
+      "full_end_exclusive": 4837111,
+      "full_reads": 967422,
+      "selected_reads": 0,
+      "selection_pct": 0.0,
+      "full_median_len": 4959.0
+    },
+    {
+      "decile": 6,
+      "full_start_zero_based": 4837111,
+      "full_end_exclusive": 5804533,
+      "full_reads": 967422,
+      "selected_reads": 0,
+      "selection_pct": 0.0,
+      "full_median_len": 5292.0
+    },
+    {
+      "decile": 7,
+      "full_start_zero_based": 5804533,
+      "full_end_exclusive": 6771956,
+      "full_reads": 967423,
+      "selected_reads": 0,
+      "selection_pct": 0.0,
+      "full_median_len": 4665.0
+    },
+    {
+      "decile": 8,
+      "full_start_zero_based": 6771956,
+      "full_end_exclusive": 7739378,
+      "full_reads": 967422,
+      "selected_reads": 0,
+      "selection_pct": 0.0,
+      "full_median_len": 5065.0
+    },
+    {
+      "decile": 9,
+      "full_start_zero_based": 7739378,
+      "full_end_exclusive": 8706800,
+      "full_reads": 967422,
+      "selected_reads": 0,
+      "selection_pct": 0.0,
+      "full_median_len": 4980.0
+    },
+    {
+      "decile": 10,
+      "full_start_zero_based": 8706800,
+      "full_end_exclusive": 9674223,
+      "full_reads": 967423,
+      "selected_reads": 0,
+      "selection_pct": 0.0,
+      "full_median_len": 4787.0
+    }
+  ],
+  "contiguous_selected_runs": 1198,
+  "adjacent_selected_pairs": 289029,
+  "neighbor_diagnostics_k15_10000_queries_seed42": {
+    "tsne1": {
+      "same_lrb_bin_neighbor_fraction": 0.8898066666666666,
+      "same_KC_species_fraction_among_both_resolved": 0.9045776704914961,
+      "resolved_neighbor_pairs": 90723,
+      "median_abs_log2_length_difference": 0.24968054442197635,
+      "median_abs_gc_difference": 0.0056607510194560395
+    },
+    "umap1": {
+      "same_lrb_bin_neighbor_fraction": 0.8554133333333334,
+      "same_KC_species_fraction_among_both_resolved": 0.8582039622149394,
+      "resolved_neighbor_pairs": 88183,
+      "median_abs_log2_length_difference": 0.35104242553440457,
+      "median_abs_gc_difference": 0.009276025377608799
+    },
+    "tsne2": {
+      "same_lrb_bin_neighbor_fraction": 0.8915333333333333,
+      "same_KC_species_fraction_among_both_resolved": 0.9002410224659473,
+      "resolved_neighbor_pairs": 90448,
+      "median_abs_log2_length_difference": 0.2341652940215358,
+      "median_abs_gc_difference": 0.005552500921845532
+    },
+    "umap2": {
+      "same_lrb_bin_neighbor_fraction": 0.8643066666666667,
+      "same_KC_species_fraction_among_both_resolved": 0.8639240506329114,
+      "resolved_neighbor_pairs": 88480,
+      "median_abs_log2_length_difference": 0.2885621608750344,
+      "median_abs_gc_difference": 0.008177578573466293
+    },
+    "tsne1_tsne2_neighbor_overlap": 0.4713333333333333,
+    "umap1_umap2_neighbor_overlap": 0.11652000000000003,
+    "tsne1_umap1_neighbor_overlap": 0.15994,
+    "tsne2_umap2_neighbor_overlap": 0.19202
+  }
+}

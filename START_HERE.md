@@ -24,3 +24,7 @@
 Исходные Python-файлы и notebook сохранены без изменения поведения. В корневом README ниже навигации остаётся историческая инструкция запуска; её ограничения разобраны в аудите. Для обучения и полномасштабного запуска требуется сначала пройти этап P0.
 
 Отдельный учебный разбор VAE по просьбе владельца не является документом этого репозитория. VAE остаётся одним из экспериментальных кандидатов в плане разработки.
+
+## Latest research artifact (2026-10-06)
+
+[Zymo experiment PDF](docs/research/reports/Zymo_Experiment_20261006.pdf) | [Full-context JSON for agents](docs/research/ZYMO_AGENT_CONTEXT_20261006.json) | [Short Markdown review](docs/research/ZYMO_FECAL_REVIEW_20261005.md). Descriptive saved-run review; P0 validation remains open.

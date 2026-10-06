@@ -1,0 +1,99 @@
+[
+  {
+    "path": "raw/taxoviz_notebook.ipynb",
+    "bytes": 3636474,
+    "sha256": "d3ee060d7ca7a495bb00ebb877804713fd5b4c95b0f844dcc0549ae57baf62e7",
+    "remote_match": true
+  },
+  {
+    "path": "raw/taxoviz_core.py",
+    "bytes": 29023,
+    "sha256": "5a47dc8d7cd54583c128e1a564b773e5cb680778b0a05d053a53a7f7485d2efa",
+    "remote_match": true
+  },
+  {
+    "path": "raw/zymofec_1.html",
+    "bytes": 242853109,
+    "sha256": "b163cf7a575a6289e90862bedf3d2e55967a9ce355fef367501c9146da0bbe25",
+    "remote_match": true
+  },
+  {
+    "path": "raw/zymofec_2.html",
+    "bytes": 242818969,
+    "sha256": "5ebf7814a0117862838c84ebede0c01f0785ca8a1a652900ce51e6c6b1a111f3",
+    "remote_match": true
+  },
+  {
+    "path": "raw/zymofec_gradients_1.svg",
+    "bytes": 1632181,
+    "sha256": "0527e4246f9efa1638f57a7ed9da15687fc6d60ac12d519b3a8e259b585484bc",
+    "remote_match": true
+  },
+  {
+    "path": "raw/zymofec_gradients_2.svg",
+    "bytes": 1646257,
+    "sha256": "9e1cda4451b6fd9322882c92f338161ad6e57787824a92211b00f9855de24ab6",
+    "remote_match": true
+  },
+  {
+    "path": "raw/zymofec_static_1.svg",
+    "bytes": 3347311,
+    "sha256": "71e2aa7933cc3702f51232ed53460c7c9fd7b62ef777a5a1cdeac2ff35538c7a",
+    "remote_match": true
+  },
+  {
+    "path": "raw/zymofec_static_2.svg",
+    "bytes": 3461509,
+    "sha256": "2546545ab6d47f363638f45e99752ef44f0d7f740a2d36ccc47105990914fb2b",
+    "remote_match": true
+  },
+  {
+    "path": "raw/zymo_lrb/binning_result.pkl",
+    "bytes": 48265891,
+    "sha256": "31ff42947f6d3938f322d23a15704fd0f96420d1ddbc362b3481e8d4a4858f20",
+    "remote_match": true
+  },
+  {
+    "path": "raw/zymo_lrb/LRBinner.log",
+    "bytes": 33956,
+    "sha256": "525c36ceaf2fcbee1800bc985191d77e637e24f34d6f8e4508061760b69e364a",
+    "remote_match": true
+  },
+  {
+    "path": "raw/zymo_lrb/bins.txt",
+    "bytes": 21432549,
+    "sha256": "c83c4e32556a1c448ee3e4604282c3aea0c3522d779847a72a5e453fa8ea89f5",
+    "remote_match": true
+  },
+  {
+    "path": "raw/zymo_lrb/lengths.txt",
+    "bytes": 51285001,
+    "sha256": "6cc1fc207be057f64b8fc435b8120944c416623b1c248eb943e2bdfa8ffa74eb",
+    "remote_match": true
+  },
+  {
+    "path": "raw\\Zymo_fecal.xlsx",
+    "bytes": 34785,
+    "sha256": "ac990bcb0f0db0fc78b663504ae423e43d478950757c72e78d4fef2306100887"
+  },
+  {
+    "path": "references\\D6323_NGS_characterization_data.xlsx",
+    "bytes": 16512,
+    "sha256": "d3492162ad30a27bd21014451451dc52d6bc0351895b294d2f456400ced2d7f8"
+  },
+  {
+    "path": "references\\D6323_protocol.pdf",
+    "bytes": 533756,
+    "sha256": "bcc5deb061208abb4f9f7f98c88197855bea0040731f2d41ddd3597db092f43f"
+  },
+  {
+    "path": "references\\in2116.16S_210122.zymo.zip",
+    "bytes": 3936482,
+    "sha256": "1f58c7fbd04b72fe59e2b7b51d39b93ca2c5de664b7de079c924e050b564a9e9"
+  },
+  {
+    "path": "references\\in2165.DNA.report.zip",
+    "bytes": 15668372,
+    "sha256": "652ceaad73b1396bd3e3acadbcdfdf360c6f99f8bea5b157cf65f5c9ec758b54"
+  }
+]
